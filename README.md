@@ -48,7 +48,7 @@ This table captures the details of each product included in an order. It serves 
 
 ### Create Schema and Table
 
-- [Schema and Table](/abc_e_commerce/ABC_e_com.sql)
+- [Schema and Table - SQL](/abc_e_commerce/ABC_e_com.sql)
 
 ### Analysis Data
 
@@ -57,17 +57,17 @@ To retrieve all orders placed by a customer with CustomerID = 1:
 
 A customer named John Doe registers on the platform. His details are recorded in the `Customers` table. John then places an order for a laptop and a pair of headphones. This order is recorded in the `Orders` table. The details of the products (laptop and headphones) in this order are recorded in the `OrderDetails` table, linking the order to the specific products in the `Products` table.
 
-- [All Orders](/abc_e_commerce/all_orders.sql)
+- [All Orders - SQL](/abc_e_commerce/all_orders.sql)
 
 2. Analyzing Sales Trends by Product Category
 To analyze total sales by product category:
 
-- [All Orders](/abc_e_commerce/sales_by_product_category.sql)
+- [Sales Trends by Product Category - SQL](/abc_e_commerce/sales_by_product_category.sql)
 
 3. Summarizing Total Sales for a Given Time Period
 To summarize total sales for each month in 2023
 
-- [All Orders](/abc_e_commerce/summarize_total_sales.sql)
+- [Summarizing Total Sales - SQL](/abc_e_commerce/summarize_total_sales.sql)
 
 ### Visualizations
 
